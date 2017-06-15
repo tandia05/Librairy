@@ -530,7 +530,6 @@ ul {
 
 #litter13 {
 	float:left;
-	/*background-image:url(image-header-droite.jpg);*/
 	width:150px;
 	height:150px;
 	background-color: green;
@@ -542,7 +541,6 @@ ul {
 
 #litter14 {
 	float:left;
-	/*background-image:url(image-header-droite.jpg);*/
 	width:150px;
 	height:150px;
 	background-color: green;
@@ -553,7 +551,6 @@ ul {
 
 #litter15 {
 	float:left;
-	/*background-image:url(image-header-droite.jpg);*/
 	width:150px;
 	height:150px;
 	background-color: green;
@@ -641,4 +638,23 @@ ul {
 	margin-top: 0px;
 }
 
+/*Validation du panier*/
+#info1img {
+	float:left;
+	width:400px;
+	height:500px;
+	border: 15px solid #fff;
+	background-color: white;
+	margin-left: 200px;
+	margin-top: 3px;
+}
 
+#info1detail {
+	float:left;
+	width:400px;
+	height:500px;
+	border: 15px solid #fff;
+	background-color: white;
+	margin-left: 20px;
+	margin-top: 3px;
+}

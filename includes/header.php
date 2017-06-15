@@ -29,7 +29,10 @@
        
     </div > -->
     <br>
-    <a  class="glyphicon glyphicon-user" href="seConnecter.php" style="float: right;">Se connecter </a>
+   
+     <button type="button" class="btn btn-default btn-sm" 
+     onclick="javascript:location.href='seConnecter.php'" style="float: right;">
+        <span class="glyphicon glyphicon-user"></span> Se connecter</button>
    <h1 class="tittre">MY LIBR@IRIE </h1>
   <h1 class="soustittre">ML</h1>
    <nav class="menu">

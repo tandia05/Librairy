@@ -36,36 +36,39 @@ include "includes/header.php"
 		</div>
 
 		<?php
-
-		if(isset($_POST['email']) && isset($_POST['pass']))
+		if(isset($_POST['connecter']))
 		{
-			$email = $_POST['email'];
-			$pass = $_POST['pass'];
+			if(isset($_POST['email']) && isset($_POST['pass']))
+				{
+					$email = $_POST['email'];
+					$pass = $_POST['pass'];
 
-			$db = connect();
-			$query = $db->prepare('SELECT * FROM user WHERE 
-				email = :email AND  motdepasse = :pass');
-			$query->execute(array(
-									':email' 		=>  $email,
-									':pass'			=>  $pass));
-			$res = $query->fetch();
-			
-			if($res) 
-			{
-				//$_SESSION['user'] = $result;
-				
-				header('location:menu.php');
-			}
+					$db = connect();
+					$query = $db->prepare('SELECT * FROM user WHERE 
+						email = :email AND  motdepasse = :pass');
+					$query->execute(array(
+											':email' 		=>  $email,
+											':pass'			=>  $pass));
+					$res = $query->fetch();
+					
+					if($res) 
+					{
+						//$_SESSION['user'] = $result;
+						
+						header('location:menu.php');
+					}
+					else
+					{
+						echo('Utilisateu/trice inconnu(e)');
+					}
+
+				}
 			else
-			{
-				echo('Utilisateu/trice inconnu(e)');
-			}
-
+				{
+					echo 'provlemes';
+				}
 		}
-	else
-		{
-			echo('provlemes');
-		}
+		
 
 		?>
 
@@ -110,19 +113,19 @@ if (isset($_POST['valider']))
 						'INSERT INTO user (nom,prenom,adresse,email,motdepasse)
 						VALUES (:nom,:prenom,:adresse,:email,:pass)');
 		$query->execute(array(
-								'nom' 			=> $_POST['nom'],
-								'prenom' 		=> $_POST['prenom'],
-								'adresse' 		=> $_POST['adresse'],
-								'email' 		=> $_POST['email'],
-								'motdepasse' 	=> $_POST['pass']
+								':nom' 			=> $_POST['nom'],
+								':prenom' 		=> $_POST['prenom'],
+								':adresse' 		=> $_POST['adresse'],
+								':email' 		=> $_POST['email'],
+								':pass' 		=> $_POST['pass']
 								));
 		
 
-		
+		echo "Formulaire valider";
 	}
 	else
 	{
-		
+		/*echo "Merci de valider ";*/
 	}
 
 

@@ -16,7 +16,7 @@ include "includes/header.php";
 <h2 id="cmde">Merci de passer vos commandes </br>en Informatiques</h2>
 
 	 <div ids="containerArtInfoLine1">
-         <a href="panier.php" id="" onClick="afficherImage(this.id);"><div id="info1" ><img src="images/informatique/info_1.jpg" alt="" width="150" height="150" onmouseover="this.width=250; this.heigth=250;" onmouseout="this.width=150; this.heigth=150;"/><center><strong>17,99 €</br><button type="button" class="btn btn-warning">Commander</button></strong></center></div></a>
+         <a href="panier.php" id="" onClick="afficherImage(this.id);"><div id="info1" ><img src="images/informatique/info_1.jpg" alt="" width="150" height="150" onmouseover="this.width=250; this.heigth=250;" onmouseout="this.width=150; this.heigth=150;"/><center><strong>17,99 €</br><button  type="button" class="btn btn-warning">Commander</button></strong></center></div></a>
 
          <a href="" id="" onClick="afficherImage(this.id);"><div id="info2"><img src="images/informatique/info_2.jpg" alt="" width="150" height="150" onmouseover="this.width=250; this.heigth=250;" onmouseout="this.width=150; this.heigth=150;"/><center><strong>19,99 €</br><button type="button" class="btn btn-warning">Commander</button></strong></center></div></a>
 
