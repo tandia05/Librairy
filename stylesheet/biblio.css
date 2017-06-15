@@ -134,22 +134,23 @@ ul {
 }
 
 .slideshow {
-	display: inline-block;
+	
    float: center;
    width: 1000px;
    height: 450px;
    overflow: hidden;
    border: 3px solid #F2F2F2;
-   margin-top: 10px;
-   margin-left: 150px;
+   margin: 0 auto;
+	margin-top: 0;
    position: relative;
    z-index: -1;
 }
 
 .slideshow ul {
     /* 4 images donc 4 x 100% */
+    display: inline-block;
    width: 350px;
-   height: 200px;
+   height: 4500px;
    padding:0; 
    list-style: none;
 }
