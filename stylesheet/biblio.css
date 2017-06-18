@@ -161,17 +161,15 @@ ul {
 
 #containerArtInfoLine1 {
 	align-self: center;
-	width:1000px;
+	width:1200px;
 	height:260px;
-	background-color: blue;
-	padding-top:30px;
-	padding-left: 10px;
-	padding-right: 10px;
+	background-color: ;
+	margin: 0 auto;
+	border: 5px solid #fff;
 }
 
 #info1 {
 	float:left;
-	/*background-image:url(image-header-gauche.jpg);*/
 	width:150px;
 	height:150px;
 	background-color: red;
@@ -182,7 +180,6 @@ ul {
 
 #info2 {
 	float:left;
-	/*background-image:url(image-header-centre.jpg);*/
 	width:150px;
 	height:150px;
 	border: 5px solid #fff;
@@ -193,7 +190,6 @@ ul {
 
 #info3 {
 	float:left;
-	/*background-image:url(image-header-droite.jpg);*/
 	width:150px;
 	height:150px;
 	background-color: green;
@@ -205,7 +201,6 @@ ul {
 
 #info4 {
 	float:left;
-	/*background-image:url(image-header-droite.jpg);*/
 	width:150px;
 	height:150px;
 	background-color: green;
@@ -216,7 +211,6 @@ ul {
 
 #info5 {
 	float:left;
-	/*background-image:url(image-header-droite.jpg);*/
 	width:150px;
 	height:150px;
 	background-color: green;
@@ -228,154 +222,141 @@ ul {
 
 #containerArtInfoLine2 {
 	align-self: center;
-	width:1000px;
+	width:1200px;
 	height:260px;
-	background-color: blue;
-	padding-top:30px;
-	padding-left: 10px;
-	padding-right: 10px;
+	background-color: ;
+	margin: 0 auto;
+	border: 5px solid #fff;
 }
 
 
 #info6 {
 	float:left;
-	/*background-image:url(image-header-gauche.jpg);*/
 	width:150px;
 	height:150px;
-	background-color: red;
+	background-color: green;
 	border: 5px solid #fff;
 	margin-left: 130px;
-	margin-top: 80px;
+	margin-top: 30px;
 }
 
 #info7 {
 	float:left;
-	/*background-image:url(image-header-centre.jpg);*/
-	width:150px;
-	height:150px;
-	border: 5px solid #fff;
-	background-color: white;
-	margin-left: 55px;
-	margin-top: 80px;
-}
-
-#info8 {
-	float:left;
-	/*background-image:url(image-header-droite.jpg);*/
 	width:150px;
 	height:150px;
 	background-color: green;
 	border: 5px solid #fff;
 	margin-left: 55px;
-	margin-top: 80px;
+	margin-top: 30px;
+}
+
+#info8 {
+	float:left;
+	width:150px;
+	height:150px;
+	background-color: green;
+	border: 5px solid #fff;
+	margin-left: 55px;
+	margin-top: 30px;
 
 }
 
 #info9 {
 	float:left;
-	/*background-image:url(image-header-droite.jpg);*/
 	width:150px;
 	height:150px;
 	background-color: green;
 	border: 5px solid #fff;
 	margin-left: 55px;
-	margin-top: 80px;
+	margin-top: 30px;
+
 }
 
 #info10 {
 	float:left;
-	/*background-image:url(image-header-droite.jpg);*/
 	width:150px;
 	height:150px;
 	background-color: green;
 	border: 5px solid #fff;
 	margin-left: 55px;
-	margin-top: 80px;
+	margin-top: 30px;
 
 }
 
 
 #containerArtInfoLine3 {
 	align-self: center;
-	width:1000px;
+	width:1200px;
 	height:260px;
-	background-color: blue;
-	padding-top:30px;
-	padding-left: 10px;
-	padding-right: 10px;
+	background-color: ;
+	margin: 0 auto;
+	border: 5px solid #fff;
 }
 
 #info11 {
 	float:left;
-	/*background-image:url(image-header-gauche.jpg);*/
-	width:150px;
-	height:150px;
-	background-color: red;
-	border: 5px solid #fff;
-	margin-left: 130px;
-	margin-top: 80px;
-}
-
-#info12 {
-	float:left;
-	/*background-image:url(image-header-centre.jpg);*/
-	width:150px;
-	height:150px;
-	border: 5px solid #fff;
-	background-color: white;
-	margin-left: 55px;
-	margin-top: 80px;
-}
-
-#info13 {
-	float:left;
-	/*background-image:url(image-header-droite.jpg);*/
 	width:150px;
 	height:150px;
 	background-color: green;
 	border: 5px solid #fff;
+	margin-left: 130px;
+	margin-top: 30px;
+}
+
+#info12 {
+	float:left;
+	width:150px;
+	height:150px;
+	background-color: red;
+	border: 5px solid #fff;
 	margin-left: 55px;
-	margin-top: 80px;
+	margin-top: 30px;
+}
+
+#info13 {
+	float:left;
+	width:150px;
+	height:150px;
+	background-color: red;
+	border: 5px solid #fff;
+	margin-left: 55px;
+	margin-top: 30px;
 
 }
 
 #info14 {
 	float:left;
-	/*background-image:url(image-header-droite.jpg);*/
 	width:150px;
 	height:150px;
-	background-color: green;
+	background-color: red;
 	border: 5px solid #fff;
 	margin-left: 55px;
-	margin-top: 80px;
+	margin-top: 30px;
 }
 
 #info15 {
 	float:left;
-	/*background-image:url(image-header-droite.jpg);*/
 	width:150px;
 	height:150px;
-	background-color: green;
+	background-color: red;
 	border: 5px solid #fff;
 	margin-left: 55px;
-	margin-top: 80px;
+	margin-top: 30px;
 
 }
 
-
+/******Articles litteratures********/
 #containerArtLitterLine1 {
 	align-self: center;
-	width:1000px;
+	width:1200px;
 	height:260px;
-	background-color: blue;
-	padding-top:30px;
-	padding-left: 10px;
-	padding-right: 10px;
+	background-color: ;
+	margin: 0 auto;
+	border: 5px solid #fff;
 }
 
 #litter1 {
 	float:left;
-	/*background-image:url(image-header-gauche.jpg);*/
 	width:150px;
 	height:150px;
 	background-color: red;
@@ -386,18 +367,16 @@ ul {
 
 #litter2 {
 	float:left;
-	/*background-image:url(image-header-centre.jpg);*/
 	width:150px;
 	height:150px;
+	background-color: green;
 	border: 5px solid #fff;
-	background-color: white;
 	margin-left: 55px;
 	margin-top: 30px;
 }
 
 #litter3 {
 	float:left;
-	/*background-image:url(image-header-droite.jpg);*/
 	width:150px;
 	height:150px;
 	background-color: green;
@@ -409,18 +388,17 @@ ul {
 
 #litter4 {
 	float:left;
-	/*background-image:url(image-header-droite.jpg);*/
 	width:150px;
 	height:150px;
 	background-color: green;
 	border: 5px solid #fff;
 	margin-left: 55px;
 	margin-top: 30px;
+
 }
 
 #litter5 {
 	float:left;
-	/*background-image:url(image-header-droite.jpg);*/
 	width:150px;
 	height:150px;
 	background-color: green;
@@ -432,101 +410,92 @@ ul {
 
 #containerArtLitterLine2 {
 	align-self: center;
-	width:1000px;
+	width:1200px;
 	height:260px;
-	background-color: blue;
-	margin-top: 60px;
-	padding-left: 10px;
-	padding-right: 10px;
+	background-color:;
+	margin: 0 auto;
+	border: 5px solid #fff;
 }
 
 #litter6 {
 	float:left;
-	/*background-image:url(image-header-gauche.jpg);*/
 	width:150px;
 	height:150px;
-	background-color: red;
+	background-color: green;
 	border: 5px solid #fff;
 	margin-left: 130px;
-	margin-top: 80px;
+	margin-top: 30px;
 }
 
 #litter7 {
 	float:left;
-	/*background-image:url(image-header-centre.jpg);*/
-	width:150px;
-	height:150px;
-	border: 5px solid #fff;
-	background-color: white;
-	margin-left: 55px;
-	margin-top: 80px;
-}
-
-#litter8 {
-	float:left;
-	/*background-image:url(image-header-droite.jpg);*/
 	width:150px;
 	height:150px;
 	background-color: green;
 	border: 5px solid #fff;
 	margin-left: 55px;
-	margin-top: 80px;
+	margin-top: 30px;
+}
+
+#litter8 {
+	float:left;
+	width:150px;
+	height:150px;
+	background-color: green;
+	border: 5px solid #fff;
+	margin-left: 55px;
+	margin-top: 30px;
 
 }
 
 #litter9 {
 	float:left;
-	/*background-image:url(image-header-droite.jpg);*/
 	width:150px;
 	height:150px;
 	background-color: green;
 	border: 5px solid #fff;
 	margin-left: 55px;
-	margin-top: 80px;
+	margin-top: 30px;
 }
 
 #litter10 {
 	float:left;
-	/*background-image:url(image-header-droite.jpg);*/
 	width:150px;
 	height:150px;
 	background-color: green;
 	border: 5px solid #fff;
 	margin-left: 55px;
-	margin-top: 80px;
+	margin-top: 30px;
 
 }
 
 #containerArtLitterLine3 {
 	align-self: center;
-	width:1000px;
+	width:1200px;
 	height:260px;
-	background-color: blue;
-	margin-top: 60px;
-	padding-left: 10px;
-	padding-right: 10px;
+	background-color: ;
+	margin: 0 auto;
+	border: 5px solid #fff;
 }
 
 #litter11 {
 	float:left;
-	/*background-image:url(image-header-gauche.jpg);*/
 	width:150px;
 	height:150px;
-	background-color: red;
+	background-color: green;
 	border: 5px solid #fff;
 	margin-left: 130px;
-	margin-top: 80px;
+	margin-top: 30px;
 }
 
 #litter12 {
 	float:left;
-	/*background-image:url(image-header-centre.jpg);*/
 	width:150px;
 	height:150px;
+	background-color: green;
 	border: 5px solid #fff;
-	background-color: white;
 	margin-left: 55px;
-	margin-top: 80px;
+	margin-top: 30px;
 }
 
 #litter13 {
@@ -536,7 +505,7 @@ ul {
 	background-color: green;
 	border: 5px solid #fff;
 	margin-left: 55px;
-	margin-top: 80px;
+	margin-top: 30px;
 
 }
 
@@ -547,7 +516,7 @@ ul {
 	background-color: green;
 	border: 5px solid #fff;
 	margin-left: 55px;
-	margin-top: 80px;
+	margin-top: 30px;
 }
 
 #litter15 {
@@ -557,8 +526,7 @@ ul {
 	background-color: green;
 	border: 5px solid #fff;
 	margin-left: 55px;
-	margin-top: 80px;
-
+	margin-top: 30px;
 }
 
 

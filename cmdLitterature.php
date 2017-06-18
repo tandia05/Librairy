@@ -12,10 +12,10 @@ include "includes/header.php"
 	<link rel="stylesheet" type="text/css" href="stylesheet/biblio.css">
 </head>
 <body>
-<h2 id="cmde">Merci de passer vos commandes </br>en litteratures</h2>
+<h2 id="cmde">Merci de passer vos commandes </br>en litteratures !</h2>
 
 
-	 <div ids="containerArtLitterLine1">
+	 <div id="containerArtLitterLine1">
          <a href="" id="" onClick="afficherImage(this.id);"><div id="litter1" ><img src="images/litterature/litter_1.jpg" alt="" width="150" height="150" onmouseover="this.width=250; this.heigth=250;" onmouseout="this.width=150; this.heigth=150;"/><center><strong>25euros</br><button type="button" class="btn btn-warning">Commander</button></strong></center></div></a>
 
          <a href="" id="" onClick="afficherImage(this.id);"><div id="litter2"><img src="images/litterature/litter_2.jpg" alt="" width="150" height="150" onmouseover="this.width=250; this.heigth=250;" onmouseout="this.width=150; this.heigth=150;"/><center><strong>25euros</br><button type="button" class="btn btn-info">Commander</button></strong></center></div></a>
@@ -27,7 +27,7 @@ include "includes/header.php"
            <a href="" id="" onClick="afficherImage(this.id);"><div id="litter5"><img src="images/litterature/litter_5.jpg" alt="" width="150" height="150" onmouseover="this.width=250; this.heigth=250;" onmouseout="this.width=150; this.heigth=150;"/><center><strong>25euros</br><button type="button" class="btn btn-warning">Commander</button></strong></center></div></a>
       </div>
 
-      <div ids="ontainerArtLitterLine2">
+      <div id="containerArtLitterLine2">
          <a href="" id="" onClick="afficherImage(this.id);"><div id="litter6" ><img src="images/litterature/litter_6.jpg" alt="" width="150" height="150" onmouseover="this.width=250; this.heigth=250;" onmouseout="this.width=150; this.heigth=150;"/><center><strong>25euros</br><button type="button" class="btn btn-info">Commander</button></strong></center></div></a>
 
          <a href="" id="" onClick="afficherImage(this.id);"><div id="litter7"><img src="images/litterature/litter_7.jpg" alt="" width="150" height="150" onmouseover="this.width=250; this.heigth=250;" onmouseout="this.width=150; this.heigth=150;"/><center><strong>25euros</br><button type="button" class="btn btn-warning">Commander</button></strong></center></div></a>
@@ -39,7 +39,7 @@ include "includes/header.php"
            <a href="" id="" onClick="afficherImage(this.id);"><div id="litter10"><img src="images/litterature/litter_10.jpg" alt="" width="150" height="150" onmouseover="this.width=250; this.heigth=250;" onmouseout="this.width=150; this.heigth=150;"/><center><strong>25euros</br><button type="button" class="btn btn-info">Commander</button></strong></center></div></a>
       </div>
 
-        <div ids="ontainerArtLitterLine3">
+        <div id="containerArtLitterLine3">
          <a href="" id="" onClick="afficherImage(this.id);"><div id="litter11" ><img src="images/litterature/litter_11.jpg" alt="" width="150" height="150" onmouseover="this.width=250; this.heigth=250;" onmouseout="this.width=150; this.heigth=150;"/><center><strong>25euros</br><button type="button" class="btn btn-info">Commander</button></strong></center></div></a>
 
          <a href="" id="" onClick="afficherImage(this.id);"><div id="litter12"><img src="images/litterature/litter_12.jpg" alt="" width="150" height="150" onmouseover="this.width=250; this.heigth=250;" onmouseout="this.width=150; this.heigth=150;"/><center><strong>25euros</br><button type="button" class="btn btn-warning">Commander</button></strong></center></div></a>

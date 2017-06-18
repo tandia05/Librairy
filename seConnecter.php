@@ -16,6 +16,8 @@ include "includes/header.php"
 			<br>
 			<br>
 			<br>
+			<br>
+			<br>
 			 <form action="" method="POST">
 				<table style="width: 45%; height: 45%;">  
 				 <tr>
@@ -30,7 +32,7 @@ include "includes/header.php"
 					<td><strong> Administrateur</strong></td>
 				    <td> <input type="checkbox" name="admin"> </td>
 				</tr>
-				   	<td><input type="submit" name="" value="connecter"></td>
+				   	<td><input type="submit" name="connecter" value="connecter"></td>
 				</table>
 	  		 </form>
 		</div>
@@ -44,18 +46,21 @@ include "includes/header.php"
 					$pass = $_POST['pass'];
 
 					$db = connect();
+
 					$query = $db->prepare('SELECT * FROM user WHERE 
 						email = :email AND  motdepasse = :pass');
 					$query->execute(array(
 											':email' 		=>  $email,
 											':pass'			=>  $pass));
-					$res = $query->fetch();
+					$log = $query->fetch();
+				/*	var_dump($log);*/
 					
-					if($res) 
+					if($log) 
 					{
-						//$_SESSION['user'] = $result;
+						$_SESSION['user'] = $log;
+
 						
-						header('location:menu.php');
+						header('redirect:menu.php');
 					}
 					else
 					{
@@ -78,25 +83,30 @@ include "includes/header.php"
 				<table>
 			   	 <tr>
 				     <td><strong>Nom: </strong></td>
-				  	 <td> <input type="text" placeholder="Saisir votre nom" name="nom"> </td>
+				  	 <td> <input type="text" placeholder="Saisir votre nom" name="nom" id="nom" class="imput"> </td>
 			   	</tr>
 			   	 <tr>
 				     <td ><strong> Prenom: </strong></td>
-				  	 <td> <input type="text" placeholder="Saisir votre prenom" name="prenom"> </td>
+				  	 <td> <input type="text" placeholder="Saisir votre prenom" name="prenom" id="prenom" class="imput"> </td>
 			   	</tr>
 			   	<tr>
 				     <td ><strong>Adresse: </strong></td>
-				  	 <td> <input type="text" placeholder="Saisir votre adresse" name="adresse"> </td>
+				  	 <td> <input type="text" placeholder="Saisir votre adresse" name="adresse" id="adresse" class="imput"> </td>
 			   	</tr>
 			   	 <tr>
 				     <td><strong> Email: </strong></td>
-				  	 <td> <input type="email" placeholder="Saisir votre adresse" name="email"> </td>
+				  	 <td> <input type="email" placeholder="Saisir votre adresse" name="email" id="email" class="imput"> </td>
 			   	</tr>
 				<tr>
 					<td><strong> Mot de passe: </strong> </td>
-					<td> <input type="password" placeholder="Saisir votre mot de passe" name="pass"> </td>
+					<td> <input type="password" placeholder="Saisir votre mot de passe" name="pass" id="pass" class="imput"> </td>
 				</tr> 
-				<td><input type="submit" name="valider" value="Sinscrire"></td>
+
+				<td><strong> Confirmer: </strong> </td>
+					<td> <input type="password" placeholder="Confirmer votre mot de passe" name="cpass" id="cpass" class="imput" > </td>
+				</tr>
+
+				<td><input type="submit" name="valider" value="Sinscrire" id="envoi"></td>
 				     
 				</table>
 	  		 </form>
@@ -106,8 +116,9 @@ include "includes/header.php"
 </html>
 <?php
 
-if (isset($_POST['valider']))
-	{
+if (isset($_POST['valider']) && ( $_POST['pass'] != " "))
+{
+	
 		$db = connect();
 		$query = $db->prepare(
 						'INSERT INTO user (nom,prenom,adresse,email,motdepasse)
@@ -119,15 +130,18 @@ if (isset($_POST['valider']))
 								':email' 		=> $_POST['email'],
 								':pass' 		=> $_POST['pass']
 								));
-		
-
-		echo "Formulaire valider";
-	}
+	if ($query) 
+	{
+		echo "valider avec succes";
+	}	
 	else
 	{
-		/*echo "Merci de valider ";*/
+		echo "Merci de valider ";
 	}
-
+}
+else
+{
+}
 
 ?>
 
