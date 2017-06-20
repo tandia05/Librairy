@@ -7,6 +7,8 @@ $(document).ready(function(){
         $mdp = $('#pass');
         $cmdp =$('#cpass');
        	$envoi =$('#envoi'); 
+        $input =$('.input');
+        $erreur =$('#erreur');
         
 
     $nom.keyup(function(){
@@ -103,7 +105,7 @@ $(document).ready(function(){
     function verifier(imput){
         if(imput.val() == ""){ // si le champ est vide
     	    $erreur.css('display', 'block'); // on affiche le message d'erreur
-            imput.css({ // on rend le champ rouge
+            $imput.css({ // on rend le champ rouge
     	        borderColor : 'red',
     	        color : 'red'
     	    });
@@ -117,7 +119,7 @@ $(document).ready(function(){
         verifier($nom);
         verifier($prenom);
         verifier($adresse);
-        verifier($emaill);
+        verifier($email);
         verifier($mdp);
     });
 

@@ -30,9 +30,18 @@ session_start();
     </div > -->
     <br>
    
+   
+
      <button type="button" class="btn btn-default btn-sm" 
-     onclick="javascript:location.href='seConnecter.php'" style="float: right;">
-        <span class="glyphicon glyphicon-user"></span> Se connecter</button>
+     onclick="javascript:location.href=''" style="float: right;">
+        <span class="glyphicon glyphicon-user"></span> 
+         <?php 
+        /* var_dump($_SESSION['user']);*/
+            if (isset($_SESSION['user']))
+            { echo '<a href="logout.php">Deconnexion</a>';}
+            else{echo '<a href="seConnecter.php">Se connecter</a>';}
+          ?>
+       </button>
    <h1 class="tittre">MY LIBR@IRIE </h1>
   <h1 class="soustittre">ML</h1>
    <nav class="menu">

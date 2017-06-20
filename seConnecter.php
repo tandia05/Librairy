@@ -60,7 +60,7 @@ include "includes/header.php"
 						$_SESSION['user'] = $log;
 
 						
-						header('redirect:menu.php');
+						header('location:menu.php');
 					}
 					else
 					{
@@ -110,6 +110,7 @@ include "includes/header.php"
 				     
 				</table>
 	  		 </form>
+	  		
 		</div>
 	</div>
 </body>
